@@ -1,0 +1,94 @@
+body {
+    background-color: bisque;
+    margin: 0 auto;
+    background-image: url("images/cork-board.png");
+}
+
+.wrap {
+    float: left;
+    padding: 7px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 2rem;
+    align-items: center;
+    max-width: 100%;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0;
+    margin-left: 20px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+img {
+    margin: 10px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+section {
+    background-color: antiquewhite;
+    margin: auto;
+    padding: 15px;
+}
+
+.container ul li {
+    list-style: none;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    background: black;
+    margin: 0;
+    padding: 1px;
+}
+
+.parent {
+    display: flex;
+    max-width: 850px;
+    margin: 0 auto;
+    align-items: flex-start;
+    margin-bottom: auto;
+}
+  
+.child {
+    flex: 1;
+    max-width: 650px;
+    margin: auto 20px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    max-width: 200px;
+    vertical-align: top;
+    border-radius: 15px;
+}
+
+.bulletpoints {
+    display: flex;
+    justify-content: center;
+}
